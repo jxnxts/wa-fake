@@ -14,7 +14,7 @@
 | S01  | JS client/in-process launcher                  | C01          | Coordinator     | Actual HTTP                       | complete             |
 | S02  | Python SDK/pytest fixture                      | C01          | Coordinator     | HTTP/HTTPS tests                  | complete locally     |
 | E01  | Demo application/encrypted Flow                | C02,D03      | Coordinator     | Text→menu→Flow→nfm_reply          | complete             |
-| E02  | External client/official shapes/Quites adapter | C02,D01,D03  | Coordinator     | Client/adapter contract           | complete locally     |
+| E02  | External client/official shapes                | C02,D01,D03  | Coordinator     | Client/wire contract              | complete locally     |
 | R01  | Build/English docs/Docker/CI                   | C03,U02,S02  | Coordinator     | Reproducible builds               | complete locally     |
 | R02  | Retained runtime/screenshots/report            | E01,E02,R01  | Coordinator     | Healthy URLs/evidence             | complete locally     |
 | OS01 | Public MIT GitHub repository                   | R02          | Coordinator     | English source/verified remote    | complete: public MIT |

@@ -11,7 +11,7 @@ Planning corrections:
 - Network rules apply to callbacks/Flow endpoints/redirects as well as Graph proxying.
 - Snapshots carry synthetic data; evidence redaction and Sim authentication are distinct contracts.
 - Flowso exports/licenses must be verified; the pinned package supplies validator/runtime/crypto/Vue exports.
-- Full Quites E2E depends on database/identity/workflows; a transport test is narrower than that application journey or provider homologation.
+- Full application E2E can depend on database, identity and workflows; a transport test is narrower than that application journey or provider homologation.
 
 Decisions: wa-fake, independent English MIT repository, read-only business view, calling/commerce outside v1. The current official Postman source contains 169 response examples; ten curated fixtures are recorded. Cataloging all examples does not mean they are all implemented/tested.
 

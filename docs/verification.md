@@ -4,20 +4,19 @@ Initial-release verification, 29–30 September 2026. Tests used synthetic data 
 
 ## Executed checks
 
-| Check                                             | Result                    | What it establishes                                                                                                                   |
-| ------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `pnpm format:check`                               | passed                    | Public source uses pinned formatting; third-party originals excluded.                                                                 |
-| `pnpm install --frozen-lockfile`                  | passed                    | Workspace installation matches the committed lock.                                                                                    |
-| `pnpm check` and inspector `check`                | passed                    | Strict TypeScript and Vue checks.                                                                                                     |
-| `pnpm test`                                       | 34 passed across 8 suites | Core, server, templates, encrypted Flows, inspector client, official response shapes, Kapso client and full HTTP application journey. |
-| `pnpm build`                                      | passed                    | Bundled Node CLI/SDK/demo and embedded production inspector.                                                                          |
-| `pnpm test:python`                                | 2 passed                  | Checkout-launched HTTP SDK tests.                                                                                                     |
-| Python tests with dedicated HTTPS URL and CA      | 2 passed                  | Real certificate verification, window/snapshot behavior and invalid Graph credential handling over HTTPS.                             |
-| Existing Quites sender/parser against local HTTPS | passed; 4 parsed events   | Unchanged adapter send/read/typing and generated webhook-envelope compatibility.                                                      |
-| `docker build -t wa-fake:local .`                 | passed                    | Node 20 Alpine installation/build.                                                                                                    |
-| Container SDK HTTP journey                        | passed                    | Built container can launch an ephemeral server and send/receive a synthetic message.                                                  |
-| Inspector browser journey                         | passed                    | Actual UI events traverse the Sim API, application webhook callback and encrypted Flow endpoint.                                      |
-| Responsive browser checks                         | passed                    | 390 × 844 chat/Flow has no horizontal document overflow; desktop and mobile screenshots saved.                                        |
+| Check                                        | Result                    | What it establishes                                                                                                                   |
+| -------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `pnpm format:check`                          | passed                    | Public source uses pinned formatting; third-party originals excluded.                                                                 |
+| `pnpm install --frozen-lockfile`             | passed                    | Workspace installation matches the committed lock.                                                                                    |
+| `pnpm check` and inspector `check`           | passed                    | Strict TypeScript and Vue checks.                                                                                                     |
+| `pnpm test`                                  | 34 passed across 8 suites | Core, server, templates, encrypted Flows, inspector client, official response shapes, Kapso client and full HTTP application journey. |
+| `pnpm build`                                 | passed                    | Bundled Node CLI/SDK/demo and embedded production inspector.                                                                          |
+| `pnpm test:python`                           | 2 passed                  | Checkout-launched HTTP SDK tests.                                                                                                     |
+| Python tests with dedicated HTTPS URL and CA | 2 passed                  | Real certificate verification, window/snapshot behavior and invalid Graph credential handling over HTTPS.                             |
+| `docker build -t wa-fake:local .`            | passed                    | Node 20 Alpine installation/build.                                                                                                    |
+| Container SDK HTTP journey                   | passed                    | Built container can launch an ephemeral server and send/receive a synthetic message.                                                  |
+| Inspector browser journey                    | passed                    | Actual UI events traverse the Sim API, application webhook callback and encrypted Flow endpoint.                                      |
+| Responsive browser checks                    | passed                    | 390 × 844 chat/Flow has no horizontal document overflow; desktop and mobile screenshots saved.                                        |
 
 The coordinator independently repeated the final strict checks, 34-test suite and production build after the ownership and versionless-response regressions were corrected. The final built runtime also passed the complete English encrypted application journey, and the final container passed its HTTP SDK smoke test.
 
@@ -56,7 +55,7 @@ WA_FAKE_URL=https://127.0.0.1:58990 \
   WA_FAKE_CA_FILE=.local/certs/ca.pem pnpm test:python
 ```
 
-The HTTPS fixture resets its dedicated instance; the HTTP interactive demo is a separate process. See the [Quites recipe](integrations/quites.md) to run the optional external adapter contract with an explicit checkout path. Full Quites identity/database/application tests were not run and its checkout was not modified.
+The HTTPS fixture resets its dedicated instance; the HTTP interactive demo is a separate process. Full application identity, database and business-workflow tests remain the responsibility of each integrating application.
 
 ## Scope limits
 

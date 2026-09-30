@@ -24,6 +24,4 @@
 
 The official response catalog contains 169 saved examples; ten are curated into fixtures and selected success shapes are tested. A catalog entry is not itself conformance coverage. See [verification](verification.md) for the executed commands and [third-party notices](../THIRD_PARTY_NOTICES.md) for provenance.
 
-The existing Quites sender and parser were exercised unchanged against trusted local HTTPS. This checks that adapter's message/read/typing and webhook-envelope contracts. It does not replace Quites' identity/database tests or prove its entire application journey.
-
 Snapshots and authenticated state expose synthetic contents for testing. Routing evidence omits message bodies, documents, tokens and private crypto. No real account, message or payment was used in validation.

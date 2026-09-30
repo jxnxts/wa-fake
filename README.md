@@ -115,7 +115,7 @@ Tests cover an actual HTTP application journey, an external Kapso client, offici
 
 - [Plan](docs/project-plan.md), [review](docs/plan-review.md), [tasks](docs/tasks.md)
 - [Architecture](docs/architecture.md), [assumptions](docs/assumptions.md), [contracts](docs/contracts.md)
-- [SDK guide](docs/sdk.md), [Quites integration](docs/integrations/quites.md)
+- [SDK guide](docs/sdk.md)
 - [Fidelity](docs/fidelity.md), [contributing](CONTRIBUTING.md), [third-party notices](THIRD_PARTY_NOTICES.md)
 
 The repository is open source. npm/PyPI packages and registry-hosted images have not been released. Use this checkout or build the container locally. The container retains a loopback listener for tests inside the same container.
