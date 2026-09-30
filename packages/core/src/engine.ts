@@ -384,7 +384,12 @@ export class WaEngine implements EngineHost {
       const target = new URL(url);
       target.searchParams.set('hub.mode', 'subscribe');
       target.searchParams.set('hub.verify_token', verify);
-      const challenge = this.id('challenge');
+      // Keep the seeded sequence while emitting a numeric Graph verification challenge.
+      const challenge = createHmac('sha256', 'wa-fake-webhook-challenge')
+        .update(this.id('challenge'))
+        .digest()
+        .readUInt32BE(0)
+        .toString();
       target.searchParams.set('hub.challenge', challenge);
       let response: Response;
       try {

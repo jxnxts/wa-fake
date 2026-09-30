@@ -75,6 +75,39 @@ async function callback(handler: (raw: Buffer, signature: string) => number) {
   return `http://127.0.0.1:${address.port}/callback`;
 }
 describe('HTTP engine integration', () => {
+  it('verifies strict numeric callback challenges with exact subscription parameters', async () => {
+    const wa = await start({ verifyToken: 'synthetic-verification-token' });
+    const challenges: string[] = [];
+    const server = createServer((req, res) => {
+      const params = new URL(req.url!, 'http://localhost').searchParams;
+      const challenge = params.get('hub.challenge') ?? '';
+      if (
+        req.method !== 'GET' ||
+        params.get('hub.mode') !== 'subscribe' ||
+        params.get('hub.verify_token') !== 'synthetic-verification-token' ||
+        !/^\d{1,10}$/.test(challenge)
+      ) {
+        res.statusCode = 403;
+        res.end();
+        return;
+      }
+      challenges.push(challenge);
+      res.end(challenge);
+    });
+    await new Promise<void>((resolve) => server.listen(0, '127.0.0.1', resolve));
+    cleanups.push(
+      () =>
+        new Promise<void>((resolve) => {
+          server.closeAllConnections();
+          server.close(() => resolve());
+        }),
+    );
+    const webhookUrl = `http://127.0.0.1:${(server.address() as { port: number }).port}/callback`;
+    expect((await call(wa.baseUrl, '/_wa/config', { webhook_url: webhookUrl })).status).toBe(200);
+    expect((await call(wa.baseUrl, '/_wa/config', { webhook_url: webhookUrl })).status).toBe(200);
+    expect(challenges).toHaveLength(2);
+    expect(challenges[0]).not.toBe(challenges[1]);
+  });
   it('enforces independent auth, scopes, strict wire, unknown 501 and window boundary', async () => {
     const wa = await start();
     expect((await call(wa.baseUrl, '/_wa/state', undefined, 'wrong')).data.error.code).toBe(190);

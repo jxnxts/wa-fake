@@ -24,6 +24,8 @@ Public MIT source: [jxnxts/wa-fake](https://github.com/jxnxts/wa-fake). GitHub v
 
 [Initial clean-install CI passed](https://github.com/jxnxts/wa-fake/actions/runs/36661035778) on Linux with Node 20: frozen install, formatting, root/Vue checks, all 34 TypeScript tests, production build and both Python tests.
 
+On 30 September, a callback compatibility regression was fixed: webhook subscription now sends a numeric challenge while preserving seeded sequence behavior. An actual loopback callback enforces the subscription mode, verify token and numeric challenge, then echoes the exact value; repeated verification uses distinct challenges. The updated source passed all 35 TypeScript tests, root/Vue checks, production build and both Python SDK tests locally.
+
 ## End-to-end journey
 
 `conformance/journey.test.ts` starts a server and a separate application endpoint on ephemeral HTTP ports. A virtual user sends text, receives reply buttons, selects a list, opens a Flow, fills visible fields and confirms the review screen. Endpoint requests use real RSA-OAEP/AES-GCM and HMAC; terminal completion produces a signed nfm_reply webhook and an application acknowledgement.

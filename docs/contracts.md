@@ -6,6 +6,8 @@ GET `/health`: `{status:"ok",mode:"synthetic-only"}`. Graph bearer: `wa-fake-tok
 
 GET `/_wa/state`: `{now,users,phones,messages,templates,flows,sessions,media,webhooks,logs}`; public collections are arrays.
 
+Webhook configuration performs a real loopback GET with `hub.mode=subscribe`, the configured `hub.verify_token`, and a numeric `hub.challenge`. The callback must return HTTP 200 with that exact challenge as its response body. Failed verification leaves the callback configuration unchanged.
+
 - Message: `{id,direction:"inbound"|"outbound",from,to,phone_number_id,type,timestamp,status,payload,render?}`; payload is original synthetic wire data.
 - Persona: `{wa_id,name,exists,blocked,marketing_opt_out}`.
 - Phone: `{id,waba_id,display_phone_number,registered,public_key?}`.
