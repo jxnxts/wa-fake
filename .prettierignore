@@ -1,0 +1,10 @@
+node_modules
+dist
+.local
+.venv
+__pycache__
+.pytest_cache
+conformance/official
+fixtures/flows/meta-encryption.mjs
+pnpm-lock.yaml
+packages/sdk-py/uv.lock

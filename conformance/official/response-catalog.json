@@ -1,0 +1,1739 @@
+[
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Subscribe to your WABA",
+    "response": "Subscribe to your WABA",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Phone Number ID",
+    "response": "Get Phone Number ID",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Register Phone Number",
+    "response": "Register Phone Number",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Test Message",
+    "response": "Send Test Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get WABA",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "name",
+      "timezone_id",
+      "message_template_namespace"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get owned WABAs",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get shared WABAs",
+    "response": "Get List of Shared WABAs",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Register Phone",
+    "response": "Register Phone",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Deregister Phone",
+    "response": "Deregister Phone",
+    "status": null,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Phone Numbers",
+    "response": "Get Phone Numbers",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Phone Number By ID",
+    "response": "Get Phone Number By ID",
+    "status": 200,
+    "keys": [
+      "verified_name",
+      "display_phone_number",
+      "id",
+      "quality_rating"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Display Name Status (Beta)",
+    "response": "Get Display Name Status (Beta)",
+    "status": 200,
+    "keys": [
+      "id",
+      "name_status"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Request Verification Code",
+    "response": "Request Verification Code",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Verify Code",
+    "response": "Verify Code",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Set Two-Step Verification Code",
+    "response": "Set Two-Step Verification Code",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Subscribe to a WABA",
+    "response": "Subscribe to a WABA",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get All Subscriptions for a WABA",
+    "response": "Get All Subscriptions for a WABA",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Unsubscribe from a WABA",
+    "response": "Unsubscribe from a WABA",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Override Callback URL",
+    "response": "Override Callback URL",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Text Message",
+    "response": "Send Text Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Text Message",
+    "response": "Send Reply to Text Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Text Message with Preview URL",
+    "response": "Send Text Message with Preview URL",
+    "status": null,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply with Reaction Message",
+    "response": "Send Reply with Reaction Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Image Message by ID",
+    "response": "Send Image Message by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Image Message by ID",
+    "response": "Send Reply to Image Message by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Image Message by URL",
+    "response": "Send Image Message by URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Image Message by URL",
+    "response": "Send Reply to Image Message by URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Audio Message by ID",
+    "response": "Send Audio Message by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Audio Message by ID",
+    "response": "Send Reply to Audio Message by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Audio Message by URL",
+    "response": "Send Audio Message By URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Audio Message by URL",
+    "response": "Send Reply to Audio Message by URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Document Message by ID",
+    "response": "Send Document Message by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Document Message by ID",
+    "response": "Send Reply to Document Message by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Document Message by URL",
+    "response": "Send Document Message by URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Document Message by URL",
+    "response": "Send Reply to Document Message by URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Sticker Message by ID",
+    "response": "Send Sticker Message By ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Sticker Message by ID",
+    "response": "Send Reply to Sticker Message by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Sticker Message by URL",
+    "response": "Send Sticker Message By URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Sticker Message by URL",
+    "response": "Send Reply to Sticker Message by URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Video Message by ID",
+    "response": "Send Video Message By ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Video Message by ID",
+    "response": "Send Reply to Video Message by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Video Message by URL",
+    "response": "Send Video Message By URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Video Message by URL",
+    "response": "Send Reply to Video Message by URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Contact Message",
+    "response": "Send Contact Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Contact Message",
+    "response": "Send Reply to Contact Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Location Message",
+    "response": "Send Location Messages",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to Location Message",
+    "response": "Send Reply to Location Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Message Template Text",
+    "response": "Send Message Template Text",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Message Template Media",
+    "response": "Send Message Template Media",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Message Template Interactive",
+    "response": "Send Interactive Message Template",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send List Message",
+    "response": "Send List Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply to List Message",
+    "response": "Send Reply to List Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Reply Button",
+    "response": "Send Reply Button",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Mark Message As Read",
+    "response": "Mark Message As Read",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Single Product Message",
+    "response": "Send Single Product Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Multi-Product Message",
+    "response": "Send Multi-Product Message",
+    "status": null,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Catalog Message",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Catalog Template Message",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get template by ID (default fields)",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "name",
+      "components",
+      "language",
+      "status",
+      "category",
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get template by name (default fields)",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get all templates (default fields)",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get namespace",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "message_template_namespace",
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create authentication template w/ OTP copy code button",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create authentication template w/ OTP one-tap autofill button",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create catalog template",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "category",
+      "id",
+      "status"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create multi-product message template",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create template w/ text header, text body, text footer, and 2 quick reply buttons",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create template w/ image header, text body, text footer, and 2 call-to-action buttons",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create template w/ location header, text body, text footer, and a website buttons",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create template w/ document header, text body, a phone number button, and a URL button",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Edit template",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Delete template by name",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Delete template by ID",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create Flow",
+    "response": "Create Flow",
+    "status": 200,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Migrate Flows",
+    "response": "Migrate Flows",
+    "status": 200,
+    "keys": [
+      "migrated_flows",
+      "failed_flows"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Flow",
+    "response": "Get Flow",
+    "status": 200,
+    "keys": [
+      "id",
+      "name",
+      "categories",
+      "preview",
+      "status",
+      "validation_errors",
+      "json_version",
+      "data_api_version",
+      "data_channel_uri",
+      "health_status",
+      "whatsapp_business_account",
+      "application"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Preview URL",
+    "response": "Get Preview URL",
+    "status": 200,
+    "keys": [
+      "preview",
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "List Flows",
+    "response": "List Flows",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Update Flow JSON",
+    "response": "Upload Flow JSON Asset",
+    "status": 200,
+    "keys": [
+      "success",
+      "validation_errors"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Publish Flow",
+    "response": "Publish Flow",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Update Flow Metadata",
+    "response": "Update Flow Metadata",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "List Assets (Get Flow JSON URL)",
+    "response": "List Assets",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Deprecate Flow",
+    "response": "Deprecate Flow",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Delete Flow",
+    "response": "Delete Flow",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Set Encryption Public Key",
+    "response": "Set Encryption Public Key",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Encryption Public Key",
+    "response": "Get Encryption Public Key",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Draft Flow by Name",
+    "response": "Send Draft Flow by Name",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Draft Flow by ID",
+    "response": "Send Draft Flow by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Published Flow by Name",
+    "response": "Send Published Flow by Name",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Published Flow by ID",
+    "response": "Send Published Flow by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create Flow Template Message by Name",
+    "response": "Create Flow Template Message by Name",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create Flow Template Message by Flow JSON",
+    "response": "Create Flow Template Message by Flow JSON",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create Flow Template Message by ID",
+    "response": "Create Flow Template Message by ID",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Flow Template Message",
+    "response": "Send Flow Template Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Endpoint Request Count Metric",
+    "response": "Get Endpoint Request Count Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Endpoint Request Error Metric",
+    "response": "Get Endpoint Request Error Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Endpoint Request Error Rate Metric",
+    "response": "Get Endpoint Request Error Rate Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Endpoint Request Latencies Metric",
+    "response": "Get Endpoint Request Latencies Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Endpoint Availability Metric",
+    "response": "Get Endpoint Availability Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Upload Image",
+    "response": "Upload Image (form-data)",
+    "status": null,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Upload Image",
+    "response": "Upload Image JSON",
+    "status": 200,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Upload Sticker",
+    "response": "Upload Sticker File (form-data)",
+    "status": 200,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Upload Sticker",
+    "response": "Upload Sticker File JSON",
+    "status": 200,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Upload Audio",
+    "response": "Upload Audio (form-data)",
+    "status": 200,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Upload Audio",
+    "response": "Upload Audio JSON",
+    "status": 200,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Retrieve Media URL",
+    "response": "Retrieve Media URL",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "url",
+      "mime_type",
+      "sha256",
+      "file_size",
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Delete Media",
+    "response": "Delete Media",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Download Media",
+    "response": "Download Media",
+    "status": 200,
+    "keys": []
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send typing indicator and read receipt",
+    "response": "Send typing indicator and read receipt",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Resumable Upload - Create an Upload Session",
+    "response": "Resumable Upload - Create an Upload Session",
+    "status": 200,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Resumable Upload - Upload File Data",
+    "response": "Resumable Upload - Upload File Data",
+    "status": 200,
+    "keys": [
+      "h"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Resumable Upload - Query File Upload Status",
+    "response": "Resumable Upload - Query File Upload Status",
+    "status": 200,
+    "keys": [
+      "id",
+      "file_offset"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Business Profile",
+    "response": "Get Business Profile ID",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Update Business Profile",
+    "response": "Update Business Profile",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get commerce settings",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Set or update commerce settings",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Order Details Message",
+    "response": "Send Order Details Message",
+    "status": null,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Order Status Message",
+    "response": "Send Order Status Message",
+    "status": null,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Order Details Message",
+    "response": "Send Order Details Message",
+    "status": null,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Order Status Message",
+    "response": "Send Order Status Message",
+    "status": null,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get QR code",
+    "response": "Example Response",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get all QR codes (default fields)",
+    "response": "Example Response",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get all QR codes (specific fields)",
+    "response": "Example Response",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get QR code SVG image URL",
+    "response": "Example Response",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get QR code PNG image URL",
+    "response": "Example Response",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Create QR code",
+    "response": "Example Response",
+    "status": 200,
+    "keys": [
+      "code",
+      "prefilled_message",
+      "deep_link_url",
+      "qr_image_url"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Update Message QR Code.",
+    "response": "Example Response",
+    "status": 200,
+    "keys": [
+      "code",
+      "prefilled_message",
+      "deep_link_url"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Delete QR code",
+    "response": "Example Response",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get Business Portfolio (Specific Fields)",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "id",
+      "name",
+      "timezone_id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get analytics",
+    "response": "Example reponse",
+    "status": 200,
+    "keys": [
+      "analytics",
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get conversation analytics",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "analytics",
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get credit lines",
+    "response": "Example response",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Migrate Account",
+    "response": "Migrate Account",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get blocked users",
+    "response": "Get blocked users",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Block user(s)",
+    "response": "Block user(s)",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "block_users"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Unblock user(s)",
+    "response": "Unblock user(s)",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "block_users"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Get India-based business compliance info",
+    "response": "Sample response",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Add India-based business compliance info",
+    "response": "Sample response",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Sample Text Message",
+    "response": "Send Sample Text message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Sample Shipping Confirmation Template",
+    "response": "Send Sample Shipping Confirmation Template",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-cloud-api.postman_collection.json",
+    "request": "Send Sample Issue Resolution Template",
+    "response": "Send Sample Issue Resolution Template",
+    "status": 200,
+    "keys": []
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Create Flow",
+    "response": "Create Flow",
+    "status": 200,
+    "keys": [
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Migrate Flows",
+    "response": "Migrate Flows",
+    "status": 200,
+    "keys": [
+      "migrated_flows",
+      "failed_flows"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get Flow",
+    "response": "Get Flow",
+    "status": 200,
+    "keys": [
+      "id",
+      "name",
+      "categories",
+      "preview",
+      "status",
+      "validation_errors",
+      "json_version",
+      "data_api_version",
+      "data_channel_uri",
+      "health_status",
+      "whatsapp_business_account",
+      "application"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get Preview URL",
+    "response": "Get Preview URL",
+    "status": 200,
+    "keys": [
+      "preview",
+      "id"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "List Flows",
+    "response": "List Flows",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get WABA",
+    "response": "Get WABA",
+    "status": 200,
+    "keys": [
+      "id",
+      "name",
+      "timezone_id",
+      "business_type",
+      "message_template_namespace"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Update Flow JSON",
+    "response": "Upload Flow JSON Asset",
+    "status": 200,
+    "keys": [
+      "success",
+      "validation_errors"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Publish Flow",
+    "response": "Publish Flow",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Update Flow Metadata",
+    "response": "Update Flow Metadata",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "List Assets (Get Flow JSON URL)",
+    "response": "List Assets",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Deprecate Flow",
+    "response": "Deprecate Flow",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Delete Flow",
+    "response": "Delete Flow",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Set Encryption Public Key",
+    "response": "Set Encryption Public Key",
+    "status": 200,
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get Encryption Public Key",
+    "response": "Get Encryption Public Key",
+    "status": 200,
+    "keys": [
+      "data"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get WABA Phone Numbers",
+    "response": "Get WABA Phone Numbers",
+    "status": 200,
+    "keys": [
+      "data",
+      "paging"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Send Draft Flow by Name",
+    "response": "Send Draft Flow by Name",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Send Draft Flow by ID",
+    "response": "Send Draft Flow by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Send Published Flow by Name",
+    "response": "Send Published Flow by Name",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Send Published Flow by ID",
+    "response": "Send Published Flow by ID",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Create Flow Template Message by Name",
+    "response": "Create Flow Template Message by Name",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Create Flow Template Message by Flow JSON",
+    "response": "Create Flow Template Message by Flow JSON",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Create Flow Template Message by ID",
+    "response": "Create Flow Template Message by ID",
+    "status": 200,
+    "keys": [
+      "id",
+      "status",
+      "category"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Send Flow Template Message",
+    "response": "Send Flow Template Message",
+    "status": 200,
+    "keys": [
+      "messaging_product",
+      "contacts",
+      "messages"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get Endpoint Request Count Metric",
+    "response": "Get Endpoint Request Count Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get Endpoint Request Error Metric",
+    "response": "Get Endpoint Request Error Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get Endpoint Request Error Rate Metric",
+    "response": "Get Endpoint Request Error Rate Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get Endpoint Request Latencies Metric",
+    "response": "Get Endpoint Request Latencies Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  },
+  {
+    "collection": "whatsapp-flows-api.postman_collection.json",
+    "request": "Get Endpoint Availability Metric",
+    "response": "Get Endpoint Availability Metric",
+    "status": 200,
+    "keys": [
+      "id",
+      "metric"
+    ]
+  }
+]

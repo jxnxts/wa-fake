@@ -1,0 +1,32 @@
+{
+  "name": "synthetic_receipt",
+  "language": "en_US",
+  "category": "UTILITY",
+  "parameter_format": "POSITIONAL",
+  "components": [
+    {
+      "type": "HEADER",
+      "format": "TEXT",
+      "text": "Order {{1}}",
+      "example": { "header_text": ["SYN-001"] }
+    },
+    {
+      "type": "BODY",
+      "text": "Hello {{1}}, your synthetic order costs {{2}}.",
+      "example": { "body_text": [["Ana", "$10.00"]] }
+    },
+    { "type": "FOOTER", "text": "Synthetic data only" },
+    {
+      "type": "BUTTONS",
+      "buttons": [
+        { "type": "QUICK_REPLY", "text": "Confirm" },
+        {
+          "type": "URL",
+          "text": "View order",
+          "url": "http://127.0.0.1/order/{{1}}",
+          "example": ["http://127.0.0.1/order/SYN-001"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "messaging_product": {
+      "const": "whatsapp"
+    },
+    "status": {
+      "const": "read"
+    },
+    "message_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "typing_indicator": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "text"
+        }
+      },
+      "required": ["type"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["messaging_product", "status", "message_id"],
+  "additionalProperties": false
+}

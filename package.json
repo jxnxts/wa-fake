@@ -1,0 +1,46 @@
+{
+  "name": "wa-fake",
+  "description": "A local, synthetic WhatsApp Cloud API simulator with encrypted Flows and a browser inspector",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnxts/wa-fake.git"
+  },
+  "homepage": "https://github.com/jxnxts/wa-fake#readme",
+  "bugs": {
+    "url": "https://github.com/jxnxts/wa-fake/issues"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "dev": "tsx packages/server/src/cli.ts",
+    "build": "pnpm --filter @wa-fake/inspector build && tsx tools/build.ts",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:python": "uv run --project packages/sdk-py pytest packages/sdk-py/tests",
+    "certs": "tsx packages/server/src/cli.ts certs",
+    "demo": "tsx examples/demo.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "@kapso/whatsapp-cloud-api": "0.3.0",
+    "ajv": "^8.17.1",
+    "flowso": "0.1.0",
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "esbuild": "^0.24.0",
+    "prettier": "3.6.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.9"
+  }
+}

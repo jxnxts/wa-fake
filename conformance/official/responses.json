@@ -1,0 +1,118 @@
+[
+  {
+    "request": "Send Text Message",
+    "status": 200,
+    "body": {
+      "messaging_product": "whatsapp",
+      "contacts": [
+        {
+          "input": "48XXXXXXXXX",
+          "wa_id": "48XXXXXXXXX "
+        }
+      ],
+      "messages": [
+        {
+          "id": "wamid.gBGGSFcCNEOPAgkO_KJ55r4w_ww"
+        }
+      ]
+    }
+  },
+  {
+    "request": "Send List Message",
+    "status": 200,
+    "body": {
+      "messaging_product": "whatsapp",
+      "contacts": [
+        {
+          "input": "15555551234",
+          "wa_id": "<WHATSAPP_ID>"
+        }
+      ],
+      "messages": [
+        {
+          "id": "wamid.ID"
+        }
+      ]
+    }
+  },
+  {
+    "request": "Send Reply Button",
+    "status": 200,
+    "body": {
+      "messaging_product": "whatsapp",
+      "contacts": [
+        {
+          "input": "PHONE_NUMBER",
+          "wa_id": "WHATSAPP_ID"
+        }
+      ],
+      "messages": [
+        {
+          "id": "wamid.ID"
+        }
+      ]
+    }
+  },
+  {
+    "request": "Create Flow",
+    "status": 200,
+    "body": {
+      "id": "flow-1"
+    }
+  },
+  {
+    "request": "Get Preview URL",
+    "status": 200,
+    "body": {
+      "preview": {
+        "preview_url": "https://business.facebook.com/wa/manage/flows/550.../preview/?token=b9d6....",
+        "expires_at": "2023-05-21T11:18:09+0000"
+      },
+      "id": "flow-1"
+    }
+  },
+  {
+    "request": "Publish Flow",
+    "status": 200,
+    "body": {
+      "success": true
+    }
+  },
+  {
+    "request": "Retrieve Media URL",
+    "status": 200,
+    "body": {
+      "messaging_product": "whatsapp",
+      "url": "<URL>",
+      "mime_type": "image/jpeg",
+      "sha256": "<HASH>",
+      "file_size": "303833",
+      "id": "2621233374848975"
+    }
+  },
+  {
+    "request": "Create Flow",
+    "status": 200,
+    "body": {
+      "id": "flow-1"
+    }
+  },
+  {
+    "request": "Get Preview URL",
+    "status": 200,
+    "body": {
+      "preview": {
+        "preview_url": "https://business.facebook.com/wa/manage/flows/550.../preview/?token=b9d6....",
+        "expires_at": "2023-05-21T11:18:09+0000"
+      },
+      "id": "flow-1"
+    }
+  },
+  {
+    "request": "Publish Flow",
+    "status": 200,
+    "body": {
+      "success": true
+    }
+  }
+]

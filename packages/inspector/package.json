@@ -1,0 +1,22 @@
+{
+  "name": "@wa-fake/inspector",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "flowso": "0.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vue-tsc": "^2.2.0",
+    "typescript": "^5.7.0"
+  }
+}

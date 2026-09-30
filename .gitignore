@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.local/
+.venv/
+__pycache__/
+.pytest_cache/
+test-results/
+*.egg-info/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+artifacts/*.json
+artifacts/*.png

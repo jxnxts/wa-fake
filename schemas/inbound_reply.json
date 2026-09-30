@@ -1,0 +1,158 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "enum": ["button", "interactive"]
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "message_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096
+        }
+      },
+      "required": ["message_id"],
+      "additionalProperties": false
+    },
+    "button": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256
+        },
+        "payload": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256
+        }
+      },
+      "required": ["text", "payload"],
+      "additionalProperties": false
+    },
+    "interactive": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "button_reply"
+            },
+            "button_reply": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 20
+                }
+              },
+              "required": ["id", "title"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["type", "button_reply"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "list_reply"
+            },
+            "list_reply": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 24
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 72
+                }
+              },
+              "required": ["id", "title"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["type", "list_reply"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "nfm_reply"
+            },
+            "nfm_reply": {
+              "type": "object",
+              "properties": {
+                "response_json": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100000
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "body": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 1024
+                }
+              },
+              "required": ["response_json", "name", "body"],
+              "additionalProperties": false
+            }
+          },
+          "required": ["type", "nfm_reply"],
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "required": ["type"],
+  "additionalProperties": false,
+  "oneOf": [
+    {
+      "properties": {
+        "type": {
+          "const": "button"
+        }
+      },
+      "required": ["button"],
+      "not": {
+        "required": ["interactive"]
+      }
+    },
+    {
+      "properties": {
+        "type": {
+          "const": "interactive"
+        }
+      },
+      "required": ["interactive"],
+      "not": {
+        "required": ["button"]
+      }
+    }
+  ]
+}

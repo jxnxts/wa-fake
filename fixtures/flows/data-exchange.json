@@ -1,0 +1,84 @@
+{
+  "version": "7.3",
+  "data_api_version": "3.0",
+  "routing_model": { "FORM": ["REVIEW"], "REVIEW": [] },
+  "screens": [
+    {
+      "id": "FORM",
+      "title": "Synthetic form",
+      "refresh_on_back": true,
+      "data": {},
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "Form",
+            "name": "form",
+            "children": [
+              {
+                "type": "TextInput",
+                "name": "name",
+                "label": "Synthetic name",
+                "required": true,
+                "min-chars": 2,
+                "max-chars": 30
+              },
+              {
+                "type": "Dropdown",
+                "name": "plan",
+                "label": "Plan",
+                "required": true,
+                "data-source": [
+                  { "id": "basic", "title": "Basic" },
+                  { "id": "pro", "title": "Pro" }
+                ]
+              },
+              {
+                "type": "OptIn",
+                "name": "confirm",
+                "label": "Synthetic consent",
+                "required": true
+              },
+              {
+                "type": "Footer",
+                "label": "Continue",
+                "on-click-action": {
+                  "name": "data_exchange",
+                  "payload": {
+                    "name": "${form.name}",
+                    "plan": "${form.plan}",
+                    "confirm": "${form.confirm}"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REVIEW",
+      "title": "Review",
+      "terminal": true,
+      "success": true,
+      "data": {
+        "name": { "type": "string", "__example__": "Ana" },
+        "summary": { "type": "string", "__example__": "Synthetic summary" }
+      },
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          { "type": "TextBody", "text": "${data.summary}" },
+          {
+            "type": "Footer",
+            "label": "Finish",
+            "on-click-action": {
+              "name": "data_exchange",
+              "payload": { "name": "${data.name}", "finish": true }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
