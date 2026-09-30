@@ -19,7 +19,11 @@ Initial-release verification, 29–30 September 2026. Tests used synthetic data 
 | Inspector browser journey                         | passed                    | Actual UI events traverse the Sim API, application webhook callback and encrypted Flow endpoint.                                      |
 | Responsive browser checks                         | passed                    | 390 × 844 chat/Flow has no horizontal document overflow; desktop and mobile screenshots saved.                                        |
 
-The coordinator independently repeated the final strict checks, 34-test suite and production build after the ownership and versionless-response regressions were corrected. Remote CI is checked after source publication.
+The coordinator independently repeated the final strict checks, 34-test suite and production build after the ownership and versionless-response regressions were corrected. The final built runtime also passed the complete English encrypted application journey, and the final container passed its HTTP SDK smoke test.
+
+Public MIT source: [jxnxts/wa-fake](https://github.com/jxnxts/wa-fake). GitHub visibility and license detection were verified after pushing. The clean-install GitHub Actions result is available under [Actions](https://github.com/jxnxts/wa-fake/actions).
+
+[Initial clean-install CI passed](https://github.com/jxnxts/wa-fake/actions/runs/36661035778) on Linux with Node 20: frozen install, formatting, root/Vue checks, all 34 TypeScript tests, production build and both Python tests.
 
 ## End-to-end journey
 

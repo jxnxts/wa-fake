@@ -10,7 +10,7 @@ The inspector and TypeScript/Python SDKs share one engine. Unsupported capabilit
 
 ## Quick start
 
-Requires Node.js 20+, pnpm 9 and OpenSSL. Python 3.12+ and uv are needed only for the Python SDK.
+Requires Node.js 20+, pnpm 9, OpenSSL, Make and Python 3 for the runtime helper. Python 3.12+ and uv are needed for the Python SDK.
 
 ```sh
 git clone https://github.com/jxnxts/wa-fake.git
@@ -45,6 +45,8 @@ See the [fidelity register](docs/fidelity.md) for tested behavior, approximation
 ## Connect an application
 
 Use Graph base URL `http://127.0.0.1:58991` or `https://127.0.0.1:58990`. For HTTPS, explicitly trust `.local/certs/ca.pem`.
+
+`make up` starts separate HTTP demo and HTTPS test instances. Their state is independent. For an application connected to HTTPS, open the inspector at that same HTTPS origin after trusting the local CA.
 
 | Setting            | Synthetic default |
 | ------------------ | ----------------- |
